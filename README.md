@@ -2,10 +2,10 @@
 
 ## 현재 진행중인 프로젝트
 
-**SaaS 플랫폼 온프레미스 마이그레이션** @ 퀸텟시스템즈 (2025.01 - 현재)
-- AWS Serverless & MSA 기반의 Low-Code 플랫폼 서비스를 On-Premise로 마이그레이션
-- 멀티테넌트 아키텍처에서 싱글테넌트 모델로 전환하여 고객 데이터 격리성 강화
-- AWS Lambda 기반 서버리스 컴포넌트의 컨테이너화 및 온프레미스 환경 구축
+**로우코드 플랫폼 AI Creator 기능 개발** @ 퀸텟시스템즈 (2025.03 ~ 현재)
+- 기존 로우코드 엔진과 사내 AI 생성 모델을 활용한 워크플로우 자동화
+- TypeScript와 Zod를 활용한 AI 생성 요청 전문의 데이터 구조 및 유효성 검증
+- 플랫폼 내 데이터의 조회/생성/수정 등 CRUD API 및 데이터 모델 설계
 
 ## 주요 프로젝트
 
@@ -14,15 +14,16 @@
 - CloudFormation을 활용한 Lambda Migration 등 AWS Multi-Region 지원을 위한 신규 기능 구현
 
 **AWS Multi-Region 서비스 준비** @ 퀸텟시스템즈 (2024.08 - 2024.11)
-- Multi-Region 배포를 위한 VSCode Extension 기반 CI/CD 도구 분석 및 수정
-- AWS 리소스의 Region별 테스트를 위한 JMeter 테스트 시나리오 작성
+- VSCode Extension 기반 CI/CD Tool의 다중 리전 지원 기능 분석 및 배포 자동화 구현
+- AWS Lambda, ECS Fargate의 다중 리전 배포 자동화 및 테스트 시나리오(JMeter) 설계/구현
+
 
 **AWS Step Functions 워크플로우 오케스트레이션** @ 퀸텟시스템즈 (2024.04 - 2024.07)
 - 프로젝트 리더로서 서비스 고도화 진행
 - 고도화된 프레임워크 적용 및 신규 API 설계
 - DB 테이블 구조 현행화 및 성능 개선
 
-**CALS 기능 개발** @ 퀸텟시스템즈 (2024.01 - 2024.03)
+**채널 발송 기능 개발** @ 퀸텟시스템즈 (2024.01 - 2024.03)
 - Infobip SMS API를 활용한 사용자 인증 보안 강화
 - 메시지 개인화 기능이 포함된 Channel FailOver API 개발
 - 계정 복구를 위한 이중 인증 체계 구현
@@ -30,14 +31,19 @@
 ## 주요 성과
 
 **워크플로우 오케스트레이션 시스템** (2023.06 - 2023.09)
-- AWS Step Functions를 활용한 다중 트리거 워크플로우 시스템 설계 및 구현
-- Redis 캐싱 도입으로 성능 최적화 달성
-- 비즈니스 프로세스 자동화를 통한 운영 효율성 향상
+- Trigger 타입별 워크플로우 설계, AWS Step Functions 기반 복잡한 비즈니스 프로세스 자동화
+- 대용량 데이터 및 배치성 작업을 위한 ECS Fargate 활용, Redis 캐싱 도입으로 DB 부하 최소화
+- 유연한 Trigger 시스템으로 다양한 요구 신속 대응
 
-**프레임워크 고도화** (2023.10 - 2023.12)
-- 사내 개발 프레임워크 TypeScript 전환
+**사내 프레임워크 고도화** (2023.10 - 2023.12)
+- 기존 Node.js 기반 사내 Framework를 TypeScript로 전면 전환, 코드 안정성 및 유지보수성 강화
 - AWS 리소스 마이그레이션 및 업데이트 수행
 - 시스템 안정성 및 유지보수성 개선
+
+**Visual Studio Code 확장 프로그램 추가 기능 개발 및 유지보수**
+- Windows 환경 전용으로 개발되었던 확장 프로그램을 macOS 환경에서도 정상 동작할 수 있도록 호환성 개선
+- IAM Credentials를 활용하여 AWS Lambda 및 ECS Fargate 리소스의 생성 및 배포를 지원하는 CI/CD 기능 신규 개발
+- 개발자 편의성 및 배포 자동화 수준 향상에 기여
 
 ## 공공기관 근무 경력
 
@@ -72,3 +78,9 @@
 - MySQL
 - Redis
 - DynamoDB
+
+**DevOps/자동화**
+- VSCode Extension
+- JMeter
+- CI/CD
+- Git
